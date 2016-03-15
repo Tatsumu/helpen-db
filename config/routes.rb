@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
+
   namespace :api, default: {format: :json} do
     resources :positions, only: :create
   end

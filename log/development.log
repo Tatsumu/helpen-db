@@ -2944,3 +2944,713 @@ WHERE fk.referenced_column_name is not null
   AND fk.table_name = 'positions'
 [0m
   [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `positions`
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:51 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156855198659", "long"=>"139.15561576842", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156855198659, 139.15561576842, '2016-03-15 16:07:51', '2016-03-15 16:07:51')[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 3.3ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156855198659, 139.15561576842, '2016-03-15 16:07:51', '2016-03-15 16:07:51')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (123.2ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:52 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.615688431984", "long"=>"139.15562208713", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.615688431984, 139.15562208713, '2016-03-15 16:07:52', '2016-03-15 16:07:52')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 2.2ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.615688431984, 139.15562208713, '2016-03-15 16:07:52', '2016-03-15 16:07:52')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (102.6ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:52 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156882459918", "long"=>"139.155621683565", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156882459918, 139.155621683565, '2016-03-15 16:07:52', '2016-03-15 16:07:52')[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.7ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156882459918, 139.155621683565, '2016-03-15 16:07:52', '2016-03-15 16:07:52')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.6ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:52 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156855198659", "long"=>"139.15561576842", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156855198659, 139.15561576842, '2016-03-15 16:07:52', '2016-03-15 16:07:52')
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.7ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156855198659, 139.15561576842, '2016-03-15 16:07:52', '2016-03-15 16:07:52')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (100.3ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:53 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156367639658", "long"=>"139.155509978038", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156367639658, 139.155509978038, '2016-03-15 16:07:53', '2016-03-15 16:07:53')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.4ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156367639658, 139.155509978038, '2016-03-15 16:07:53', '2016-03-15 16:07:53')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.4ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:53 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156110269006", "long"=>"139.15545413384", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156110269006, 139.15545413384, '2016-03-15 16:07:53', '2016-03-15 16:07:53')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.3ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156110269006, 139.15545413384, '2016-03-15 16:07:53', '2016-03-15 16:07:53')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.9ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:53 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.615598158426", "long"=>"139.155426211867", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.615598158426, 139.155426211867, '2016-03-15 16:07:53', '2016-03-15 16:07:53')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.1ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.615598158426, 139.155426211867, '2016-03-15 16:07:53', '2016-03-15 16:07:53')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.7ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:54 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156431084397", "long"=>"139.155523744256", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156431084397, 139.155523744256, '2016-03-15 16:07:54', '2016-03-15 16:07:54')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.2ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156431084397, 139.155523744256, '2016-03-15 16:07:54', '2016-03-15 16:07:54')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.3ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:54 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156655841976", "long"=>"139.15557251208", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156655841976, 139.15557251208, '2016-03-15 16:07:54', '2016-03-15 16:07:54')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.4ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156655841976, 139.15557251208, '2016-03-15 16:07:54', '2016-03-15 16:07:54')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (90.5ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:55 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156768220936", "long"=>"139.155596896029", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156768220936, 139.155596896029, '2016-03-15 16:07:55', '2016-03-15 16:07:55')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.4ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156768220936, 139.155596896029, '2016-03-15 16:07:55', '2016-03-15 16:07:55')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.5ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:55 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156768220936", "long"=>"139.155596896029", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156768220936, 139.155596896029, '2016-03-15 16:07:55', '2016-03-15 16:07:55')[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.6ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156768220936, 139.155596896029, '2016-03-15 16:07:55', '2016-03-15 16:07:55')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.8ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:55 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156310517104", "long"=>"139.155497583605", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156310517104, 139.155497583605, '2016-03-15 16:07:55', '2016-03-15 16:07:55')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.9ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156310517104, 139.155497583605, '2016-03-15 16:07:55', '2016-03-15 16:07:55')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.3ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:56 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156081707528", "long"=>"139.15544793658", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156081707528, 139.15544793658, '2016-03-15 16:07:56', '2016-03-15 16:07:56')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.2ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156081707528, 139.15544793658, '2016-03-15 16:07:56', '2016-03-15 16:07:56')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.7ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:56 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6155967303308", "long"=>"139.155423113191", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6155967303308, 139.155423113191, '2016-03-15 16:07:56', '2016-03-15 16:07:56')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.3ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6155967303308, 139.155423113191, '2016-03-15 16:07:56', '2016-03-15 16:07:56')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.4ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:57 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156423942428", "long"=>"139.155522194594", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156423942428, 139.155522194594, '2016-03-15 16:07:57', '2016-03-15 16:07:57')[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.3ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156423942428, 139.155522194594, '2016-03-15 16:07:57', '2016-03-15 16:07:57')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (31.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.2ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:57 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156766435397", "long"=>"139.155596508603", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156766435397, 139.155596508603, '2016-03-15 16:07:57', '2016-03-15 16:07:57')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.8ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156766435397, 139.155596508603, '2016-03-15 16:07:57', '2016-03-15 16:07:57')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.7ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:57 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156652270952", "long"=>"139.15557173724", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156652270952, 139.15557173724, '2016-03-15 16:07:57', '2016-03-15 16:07:57')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.7ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156652270952, 139.15557173724, '2016-03-15 16:07:57', '2016-03-15 16:07:57')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.3ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:58 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156309624066", "long"=>"139.155497389834", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156309624066, 139.155497389834, '2016-03-15 16:07:58', '2016-03-15 16:07:58')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.2ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156309624066, 139.155497389834, '2016-03-15 16:07:58', '2016-03-15 16:07:58')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.0ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:58 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156081260601", "long"=>"139.155447839606", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156081260601, 139.155447839606, '2016-03-15 16:07:58', '2016-03-15 16:07:58')[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.7ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156081260601, 139.155447839606, '2016-03-15 16:07:58', '2016-03-15 16:07:58')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.0ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:59 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6155967079972", "long"=>"139.155423064732", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (91.0ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6155967079972, 139.155423064732, '2016-03-15 16:07:59', '2016-03-15 16:07:59')
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 91.5ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6155967079972, 139.155423064732, '2016-03-15 16:07:59', '2016-03-15 16:07:59')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.3ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:59 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156423831895", "long"=>"139.15552217061", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156423831895, 139.15552217061, '2016-03-15 16:07:59', '2016-03-15 16:07:59')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.3ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156423831895, 139.15552217061, '2016-03-15 16:07:59', '2016-03-15 16:07:59')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (26.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.7ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:07:59 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156652215685", "long"=>"139.155571725248", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156652215685, 139.155571725248, '2016-03-15 16:07:59', '2016-03-15 16:07:59')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.6ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156652215685, 139.155571725248, '2016-03-15 16:07:59', '2016-03-15 16:07:59')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.4ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:08:00 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.615676640776", "long"=>"139.155596502606", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.615676640776, 139.155596502606, '2016-03-15 16:08:00', '2016-03-15 16:08:00')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.6ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.615676640776, 139.155596502606, '2016-03-15 16:08:00', '2016-03-15 16:08:00')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.1ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:08:00 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156309598462", "long"=>"139.155497384278", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156309598462, 139.155497384278, '2016-03-15 16:08:00', '2016-03-15 16:08:00')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.3ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156309598462, 139.155497384278, '2016-03-15 16:08:00', '2016-03-15 16:08:00')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (113.0ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:08:01 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6156081247581", "long"=>"139.155447836781", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156081247581, 139.155447836781, '2016-03-15 16:08:01', '2016-03-15 16:08:01')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.2ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6156081247581, 139.155447836781, '2016-03-15 16:08:01', '2016-03-15 16:08:01')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.8ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:08:01 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6155967073405", "long"=>"139.155423063307", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6155967073405, 139.155423063307, '2016-03-15 16:08:01', '2016-03-15 16:08:01')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.3ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6155967073405, 139.155423063307, '2016-03-15 16:08:01', '2016-03-15 16:08:01')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.0ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:08:01 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6124399676915", "long"=>"139.156749391909", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6124399676915, 139.156749391909, '2016-03-15 16:08:01', '2016-03-15 16:08:01')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.3ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6124399676915, 139.156749391909, '2016-03-15 16:08:01', '2016-03-15 16:08:01')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (96.6ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:08:02 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6122171087522", "long"=>"139.156341618057", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6122171087522, 139.156341618057, '2016-03-15 16:08:02', '2016-03-15 16:08:02')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.1ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6122171087522, 139.156341618057, '2016-03-15 16:08:02', '2016-03-15 16:08:02')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (90.2ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:08:02 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6121745705936", "long"=>"139.156207256149", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6121745705936, 139.156207256149, '2016-03-15 16:08:02', '2016-03-15 16:08:02')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.2ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6121745705936, 139.156207256149, '2016-03-15 16:08:02', '2016-03-15 16:08:02')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.0ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:08:02 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6121745705936", "long"=>"139.156207256149", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6121745705936, 139.156207256149, '2016-03-15 16:08:02', '2016-03-15 16:08:02')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.3ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6121745705936, 139.156207256149, '2016-03-15 16:08:02', '2016-03-15 16:08:02')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.9ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:08:02 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6121745705936", "long"=>"139.156207256149", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6121745705936, 139.156207256149, '2016-03-15 16:08:02', '2016-03-15 16:08:02')[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.5ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'name' doesn't have a default value: INSERT INTO `positions` (`lat`, `long`, `created_at`, `updated_at`) VALUES (35.6121745705936, 139.156207256149, '2016-03-15 16:08:02', '2016-03-15 16:08:02')):
+  app/controllers/api/positions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.2ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:15:02 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6121073058207", "long"=>"139.15611539049", "mail"=>"hoge", "name"=>"hoge", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `positions` (`lat`, `long`, `name`, `mail`, `created_at`, `updated_at`) VALUES (35.6121073058207, 139.15611539049, 'hoge', 'hoge', '2016-03-15 16:15:02', '2016-03-15 16:15:02')
+  [1m[36m (7.3ms)[0m  [1mCOMMIT[0m
+  Rendered api/positions/create.json.jbuilder (8.5ms)
+Completed 200 OK in 48ms (Views: 25.7ms | ActiveRecord: 9.7ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:15:02 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6121073058207", "long"=>"139.15611539049", "mail"=>"hoge", "name"=>"hoge", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `name`, `mail`, `created_at`, `updated_at`) VALUES (35.6121073058207, 139.15611539049, 'hoge', 'hoge', '2016-03-15 16:15:02', '2016-03-15 16:15:02')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  Rendered api/positions/create.json.jbuilder (0.1ms)
+Completed 200 OK in 25ms (Views: 13.1ms | ActiveRecord: 8.6ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:15:02 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6121745705936", "long"=>"139.156207256149", "mail"=>"hoge", "name"=>"hoge", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO `positions` (`lat`, `long`, `name`, `mail`, `created_at`, `updated_at`) VALUES (35.6121745705936, 139.156207256149, 'hoge', 'hoge', '2016-03-15 16:15:02', '2016-03-15 16:15:02')
+  [1m[36m (4.9ms)[0m  [1mCOMMIT[0m
+  Rendered api/positions/create.json.jbuilder (0.1ms)
+Completed 200 OK in 24ms (Views: 14.4ms | ActiveRecord: 6.4ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:15:02 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.6178885070351", "long"=>"139.142923556412", "mail"=>"hoge", "name"=>"hoge", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `positions` (`lat`, `long`, `name`, `mail`, `created_at`, `updated_at`) VALUES (35.6178885070351, 139.142923556412, 'hoge', 'hoge', '2016-03-15 16:15:02', '2016-03-15 16:15:02')[0m
+  [1m[35m (5.5ms)[0m  COMMIT
+  Rendered api/positions/create.json.jbuilder (0.1ms)
+Completed 200 OK in 22ms (Views: 13.0ms | ActiveRecord: 5.9ms)
+
+
+Started POST "/api/positions" for 182.251.59.156 at 2016-03-15 16:15:02 +0000
+Cannot render console from 182.251.59.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#create as */*
+  Parameters: {"lat"=>"35.618037168559", "long"=>"139.142584333111", "mail"=>"hoge", "name"=>"hoge", "default"=>{"format"=>:json}}
+Unpermitted parameter: default
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `positions` (`lat`, `long`, `name`, `mail`, `created_at`, `updated_at`) VALUES (35.618037168559, 139.142584333111, 'hoge', 'hoge', '2016-03-15 16:15:02', '2016-03-15 16:15:02')
+  [1m[36m (7.1ms)[0m  [1mCOMMIT[0m
+  Rendered api/positions/create.json.jbuilder (0.2ms)
+Completed 200 OK in 28ms (Views: 14.3ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/api/positions/map" for 126.165.113.151 at 2016-03-15 16:15:14 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::PositionsController#map as HTML
+  [1m[35mPosition Load (0.4ms)[0m  SELECT  `positions`.* FROM `positions`  ORDER BY created_at DESC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT `positions`.`lat` FROM `positions`  ORDER BY created_at DESC[0m
+  [1m[35m (0.2ms)[0m  SELECT `positions`.`long` FROM `positions`  ORDER BY created_at DESC
+  Rendered api/positions/map.erb within layouts/application (0.9ms)
+Completed 200 OK in 863ms (Views: 355.6ms | ActiveRecord: 0.9ms)
+  [1m[36m (10.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (22.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreatePositions (20160315081541)
+  [1m[35m (9.2ms)[0m  CREATE TABLE `positions` (`id` int(11) auto_increment PRIMARY KEY, `lat` decimal(16,13), `long` decimal(16,13), `name` varchar(255) NOT NULL, `mail` varchar(255) NOT NULL, `password` varchar(255) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160315081541')
+  [1m[36m (3.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.4ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'helpen_development'
+  AND fk.table_name = 'positions'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `positions`

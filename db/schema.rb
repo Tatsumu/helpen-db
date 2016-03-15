@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20160315081541) do
     t.decimal  "long",                   precision: 16, scale: 13
     t.string   "name",       limit: 255,                           null: false
     t.string   "mail",       limit: 255,                           null: false
+    t.string   "password",   limit: 255,                           null: false
     t.datetime "created_at",                                       null: false
     t.datetime "updated_at",                                       null: false
   end
