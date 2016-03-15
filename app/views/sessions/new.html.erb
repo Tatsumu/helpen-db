@@ -1,5 +1,6 @@
 <h1>ログインするよ</h1>
-<p>Find me in app/views/sessions/new.html.erb</p>
-<form action="">
-    <p><input type ="text" placeholder="メールアドレス" /></p>
+<form action="/signin" method="post">
+    <p>メールアドレス<input type ="text" name="mail" placeholder="メールアドレス" /></p>
+    <p>PINコード<input type ="text" name="" placeholder="PIN" /></p>
+    <p><input type ="submit" value="ログイン" /></p>
 </form>

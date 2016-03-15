@@ -3654,3 +3654,166 @@ WHERE fk.referenced_column_name is not null
   AND fk.table_name = 'positions'
 [0m
   [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `positions`
+
+
+Started GET "/sessions/new" for 126.165.113.151 at 2016-03-15 17:13:40 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 834ms (Views: 820.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions-539b1b2d248fcacaf845c897cae976a6.css?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/api/positions-b4f84b1897a6200921c71ec97208b753.css?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-0b858551b498c1d6a8760538ec59b044.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/api/positions-f6c6ef02137813db1b2df8e2c31983a1.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-9e3b65eeeac0c6118c3e8c9bcedabb82.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-91e29e124b2d99132403ac538113e435.css?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-fec3d297f67a88e5f7a1357ea79f700c.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/underscore-195f4549dee885f25cf97e45629080dd.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/base-5087212b6909398f7a11d7131ef4c463.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions-f6c6ef02137813db1b2df8e2c31983a1.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/base/base-15dad310b8bb175594dfa7810358f79e.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/objects/base_builder-1ca8a9a5ff85df5217ca35273489e9dd.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/objects/handler-70740a2a94e063b9ad18b006cb95da64.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/objects/builder-6ebd95b8e2db1a8a0e3f2ab528e6257c.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:42 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/objects/null_clusterer-7b779a61f71e7a513878bb22cabffec9.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/objects/common-f7caf6f9efef0b7d1e69d40acbdf254e.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/builders/bound-bf68ba9a9f090c94a5ecaab4671dc8f7.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/builders/circle-30b4de489bac101aa3b91b590e20f392.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/builders/map-4e24a4ab5a6d4e2b18199565377d9635.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-26b3bfb14edac997d88d3372e5c60b28.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/builders/clusterer-5d42c28613e23dcb4443c0dc52af6c38.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/builders/marker-719a344649c5ca6faee5a6eff8165688.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/builders/kml-b71bb1ad0261675e4839275feeae5faa.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/builders/polygon-c7c12f55c4f17be49a0b740f61065231.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/builders/polyline-99a7bb6d7219d85bc58c19f6ab7830ab.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/objects/bound-efb5be336ef82609eda9fb7bdb767433.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/objects/circle-ff867f66ea43da82ad5620a91cc3851b.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/objects/clusterer-13ad67cc96cde070517278802b851ab1.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/objects/kml-a0261c50e74527e29aa9e13681cae7ed.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/objects/map-ef6390650f1965d3818a33a7ccc72e19.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/objects/marker-17535bd9c1dec5792b3327fca0b7aecb.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google-ff41006392cd12718c113a012da992bc.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/objects/polygon-05997710aaed7c129411c9d3e7e96f90.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/objects/polyline-fef678204dc777b6851b4a8fc86c7919.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/gmaps/google/primitives-607a5449e343ac52f014f6f0c323998e.js?body=1" for 126.165.113.151 at 2016-03-15 17:13:43 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/sessions/new" for 126.165.113.151 at 2016-03-15 17:20:49 +0000
+Cannot render console from 126.165.113.151! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::User):
+  app/controllers/sessions_controller.rb:3:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.7ms)

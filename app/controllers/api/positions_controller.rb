@@ -14,6 +14,7 @@ class Api::PositionsController < ApplicationController
   end
   
   def map
+    # unless 
     @points = Position.all.limit('1').order('created_at DESC')
     @hash = Gmaps4rails.build_markers(@points) do |position, marker|
       marker.lat position.lat
