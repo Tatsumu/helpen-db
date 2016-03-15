@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   post 'sessions/new' => 'sessions#new'
   get '/signin' => 'sessions#signin'
+  post '/signout' => 'sessions#destroy'
 
   namespace :api, default: {format: :json} do
     resources :positions, only: :create

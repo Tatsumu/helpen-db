@@ -23,11 +23,11 @@
             <li class="menu"><%= link_to "テスト", api_positions_res_path %></li>
             <li class="menu">
               <% unless session[:user] %>
-                <a href="/signin">ログイン</a> <a href="/signup">新規登録</a><br>
-                <h2>未ログイン</h2>
+                <a href="/signin">ログイン</a>
+                未ログイン
               <% else %>
                 <a href="/signout">ログアウト</a>
-                <h2><%= User.find(session[:user]).mail %>としてログイン</h2>
+                <%= User.find(session[:user]).mail %>としてログイン
               <% end %>
             </li>
         </ul>
