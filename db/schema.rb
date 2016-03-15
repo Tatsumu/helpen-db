@@ -11,14 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160315081541) do
+ActiveRecord::Schema.define(version: 20160315173056) do
 
-  create_table "positions", force: :cascade do |t|
+  create_table "users", force: :cascade do |t|
     t.decimal  "lat",                    precision: 16, scale: 13
     t.decimal  "long",                   precision: 16, scale: 13
     t.string   "name",       limit: 255,                           null: false
     t.string   "mail",       limit: 255,                           null: false
-    t.string   "password",   limit: 255,                           null: false
+    t.string   "pin",        limit: 255,                           null: false
     t.datetime "created_at",                                       null: false
     t.datetime "updated_at",                                       null: false
   end

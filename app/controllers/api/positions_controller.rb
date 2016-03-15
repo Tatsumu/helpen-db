@@ -36,6 +36,6 @@ class Api::PositionsController < ApplicationController
 
   private
   def create_params
-    params.permit(:lat, :long, :name, :mail)
+    params.permit(:lat, :long, :name, :mail, :pin)
   end
 end

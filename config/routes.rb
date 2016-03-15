@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
+  post 'sessions/new' => 'sessions#new'
+  get '/signin' => 'sessions#signin'
 
   namespace :api, default: {format: :json} do
     resources :positions, only: :create
